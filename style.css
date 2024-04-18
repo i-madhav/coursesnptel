@@ -218,6 +218,12 @@
      padding: 1rem;
  }
 
+ .root-main-sec li a{
+    color:  black;
+    text-decoration:  none;
+    font-weight: bold;
+ }
+
  .root-main-sec li {
      list-style: none;
      display: flex;
