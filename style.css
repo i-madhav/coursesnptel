@@ -1,0 +1,232 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+}
+
+header{
+    text-align: center;
+}
+
+.imageH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+}
+
+header p{
+    color: #666666;
+    padding: 0px 4px 0px 4px;
+    font-size: 14px;
+    font-weight: 300;
+
+    font-family: "poppins";
+}
+
+.course{
+    background-color: #993333;
+    color: white;
+
+	border-bottom: 1px solid #d7d7d7;
+	border-top: 1px solid #fff;
+	height: auto;
+	background-image: none;
+
+    padding: 15px 15px 15px 20px;
+    margin-bottom: 8px;
+
+    font-family: "poppins";
+    display: flex;
+
+    margin-top: 15px;
+}
+
+.course p{
+    padding: 0 5px;
+}
+
+
+.gre{
+    display: flex;
+    align-items: center;
+}
+
+.gre p:last-child{
+    margin-left: -13px;
+}
+
+.menu{
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 0 35px 10px 25px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+}
+
+.menu svg{
+    height: 15px;
+}
+
+.reg{
+    background-color: #666;  
+    border: 1px solid #505050;
+    color: white;
+    font-family: "poppins";
+    font-weight: 500;
+    width: 93%;
+    padding: 4px 7px;
+
+    background-image: -moz-linear-gradient(top,#777,#555);
+    background-image: -webkit-linear-gradient(top,#777,#555);
+    background-image: linear-gradient(top,#777,#555);
+
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+
+    text-align: center;
+    margin: 0 auto;
+
+    margin-top: 3rem !important;
+}
+
+.course-outline{
+    background: #f9f9f9;
+    border-color: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+.course-outline p{
+    font-size: 1.1em;
+    padding: 5px;
+    font-family: "poppins";
+    font-weight: 500;
+    border-bottom: 1px solid #aaa;
+}
+
+.course-outline > ul > li{
+    list-style: none;
+    padding: .8rem 0;
+    color: #333;
+    font-family: "poppins";
+    font-weight: 600;
+    border-bottom: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 20px;
+    width: 90%;
+}
+
+.course-outline > ul > li:last-child{
+    border-bottom: none;
+    padding-bottom: 1.2rem;
+}
+
+.fa-bell::before{
+    content: "/f0f3";
+}
+
+.fa-list-alt:before {
+    content: "\f022";
+}
+
+.fa-info-circle:before {
+    content: "\f05a";
+}
+
+.fa-question-circle-o::before{
+    content: "\f29c";
+}
+
+.fa-line-chart:before {
+    content: "\f201";
+}
+
+.fa-user:before {
+    content: "\f007";
+}
+
+.root{
+    width: 85vw;
+    height: 100vh;
+    background-color: #fafafa;
+    z-index: 1000;
+    overflow-x: hidden;
+    white-space: nowrap;
+    transition: 0.5s;
+    box-shadow: 0 5.5px 5px 0 rgba(0, 0, 0, 0.24), 0 9px 18px 0 rgba(0, 0, 0, 0.18);
+    font-family: "poppins";
+    z-index: 100;
+    position: sticky;
+   position:sticky;
+   top: -1px;
+   display: none;
+}
+
+.root-header{
+    height: 10vh;
+    background-color: rgb(153, 51, 51);
+    color: white;
+    font-family: "poppins";
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.root-header p{
+    color: white;
+}
+
+.root-header svg{
+    fill: #fafafa;
+    height: 1.5rem;
+}
+
+.root-main-first li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: "poppins";
+    font-weight: 400;
+    padding: 1rem;
+    padding-left: 1rem !important;
+    font-size: 16px;
+}
+
+.root-main-first{
+    padding: 1rem;
+    border-bottom: 1px solid #aaa;
+}
+
+.root-main-sec{
+    padding: 1rem;
+}
+
+.root-main-sec li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: "poppins";
+    font-weight: 400;
+    padding: 1rem;
+    padding-left: 1rem !important;
+    font-size: 16px;
+}
+
+.root-main-sec li:last-child{
+    padding-top: 3rem;
+}
